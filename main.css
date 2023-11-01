@@ -1,0 +1,29 @@
+html {
+    background-image: linear-gradient(180deg, #99f6e4 0%, #11465e 100%);
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    margin: 0;
+}
+
+.sidebar {
+    border-right:solid 1px rgba(204, 251, 241, 50%);
+    position: absolute;
+    width: 250px;
+    height:100vh;
+}
+
+h3{
+    color: white;
+    position: relative;
+    text-align: center;
+    margin-top: 2vh;
+    font-size: 35px;
+}

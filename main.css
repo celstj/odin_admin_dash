@@ -9,7 +9,6 @@ html {
 }
 
 .container {
-    display: flex;
     margin: 0;
 }
 
@@ -18,6 +17,32 @@ html {
     position: absolute;
     width: 250px;
     height:100vh;
+}
+
+.main {
+    display: grid;
+    position:relative;
+    left: 28.1vh;
+    grid-template: 100px 250px 250px / 
+                    250px 250px 250px;
+    /* background-color: blue; */
+    column-gap: 50px;
+    row-gap: 50px;
+    padding:50px;
+}
+
+.item {
+    border: 1px solid white;
+}
+
+.header {
+    grid-area: 1/1/2/4;
+    border: 1px solid #99f6e4;
+}
+
+
+.announcement {
+    grid-area: 2/3/4/4;
 }
 
 h3{
